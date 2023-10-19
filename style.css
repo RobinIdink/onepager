@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+/* --- Header --- */		
+
+header {
+	font-family: 'Audiowide';
+	margin-bottom: -44px;
+}
+
+/* --- Body --- */
+
+body {
+	font-family: 'Audiowide';
+	margin: 0px;	
+}
+
+/* --- Hero-Teaser --- */
+
+.hero {
+    background-image: url('./assets/hero-image.webp');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+	height: 800px;
+	margin-top: 0px;
+	font-family: 'Audiowide';
+}
+
+.hero h1 {
+	transform: translate(0%, 400%);
+    font-size: 64px;
+}
+
+.hero p {
+	transform: translate(0%, 1100%);
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.cta-button {
+	transform: translate(0%, 500%);
+	background-color: #fe9600;
+	border: none;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+	font-family: 'Audiowide';
+}
+
+.cta-button:hover {
+    background-color: #febc00;
+}
+
+/* --- Navigation --- */
+
+.topnav {
+	overflow: hidden;
+	background-color: #111;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #febc00;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #fe9600;
+	color: black;
+}
+/* --- About --- */
+
+.about {
+	font-family: 'Audiowide';
+	overflow: hidden;
+	margin: 30px;
+}
+
+.text-left {
+	float: left;
+}
+
+
+.img-right {
+	float: right;
+}
+
+#sandworm {
+	width: 500px;
+	height: auto;
+}
+
