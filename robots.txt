@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /private/
 Disallow: /restricted/
+Sitemap: https://www.meinewebseite.de/sitemap.xml
